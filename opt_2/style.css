@@ -10,9 +10,10 @@ html {
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
 	background-color: #000000
+	/*background: "particles-js";*/
 }
 
-#particles-js
+#scratch-js
 {
 	height: 100%;
 	position: absolute;
@@ -93,6 +94,43 @@ li {
 .cta:hover {
 	color: white;
 	background-color: crimson;
+}
+
+.cta2 {
+	display: inline-block;
+	padding: 7px 15px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid crimson;
+	font-size: 2rem;
+	text-transform: unset;
+	letter-spacing: 0.05rem;
+	margin-top: 30px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+}
+.cta2:hover {
+	color: white;
+	background-color: crimson;
+}
+.cta3 {
+	display: inline-block;
+	padding: 3px 7px;
+	color: white;
+	text-align: right;
+	background-color: transparent;
+	border: 2px solid crimson;
+	font-size: 2rem;
+	text-transform: unset;
+	letter-spacing: 0.05rem;
+	margin-top: 30px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+}
+.cta3:hover {
+	color: white;
+	background-color: crimson;
+	text: "read more";
 }
 .brand h1 {
 	font-size: 3rem;

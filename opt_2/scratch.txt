@@ -1,118 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="This is the portfolio page for Paul, Your Data Scientist">
-  <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-  <title>Paul DADA | Home</title>
-</head>
-
-<body>
-  <!-- Header -->
-  <!-- <div id = "particles-js" class="animation_background"></div> -->
-  <section id="header">
-    <!-- <div id="particles-js"></div> -->
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero">
-            <h1><span>P</span>aul <span>D</span>ada</h1>
-          </a>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger">
-            <div class="bar"></div>
-          </div>
-          <ul>
-            <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="#services" data-after="Service">Services</a></li>
-            <li><a href="#projects" data-after="Projects">Projects</a></li>
-            <li><a href="#about" data-after="About">About</a></li>
-            <li><a href="#contact" data-after="Contact">Contact</a></li>
-          </ul>
-        </div>
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Paul <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
       </div>
     </div>
-    </section>
-
-
-      <section id="hero">
-      <div class="hero container">
-        <!-- <div id="particles-js"> -->
-        <div>
-          <h1>| Hi Guest, <span></span></h1>
-          <h1>| Welcome! <span></span></h1>
-          <h1>| Paul == Data <span></span></h1>
-          <!-- <h1>| A data analysis and data scientisT currently working as a software engineer. <span></span></h1> -->
-          <!-- <h1>| with RoadPreppers Technologies <span></span></h1> -->
-          <a href="#projects" type="button" class="cta">Browse Projects</a>
-        </div>
-        </div>
-      </div>
-      </section>
-        <!-- <script type="text/javascript" src="particles.js"></script></script>
-        <script type="text/javascript" src="app.js"></script></script> -->
-
-  <!-- </div> -->
-  <!-- End Header -->
- 
+  </section>
+  <!-- End Hero Section  -->
 
   <!-- Service Section -->
   <section id="services">
     <div class="services container">
       <div class="service-top">
         <h1 class="section-title">Serv<span>i</span>ces</h1>
-        <p>Let me help make better use of your data. My expertise can be used to clean, analyse, interpret and make business sense of your data.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas
+          magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias
+          voluptatum explicabo!</p>
       </div>
       <div class="service-bottom">
         <div class="service-item">
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Data Management</h2>
-          <ul>
-            <li>Data harvesting & cleaning__</li>
-            <li>Data Structuring & modelling</li>
-            <li>Reproducible data analytics.</li>
-          </ul>
-          <a href="#" class="cta3"> + </a>
-          <!-- <p>Data harvesting, cleaning and reshaping. Development of automated workflows.</p> -->
+          <h2>Data Analysis</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
+            architecto placeat beatae tenetur officia quod</p>
         </div>
         <div class="service-item">
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Data Mining</h2>
-          <ul>
-            <li>Data exploration and Descriptives</li>
-            <li>Application of statistical methods</li>
-            <li>Insight Gathering and reporting</li>
-          </ul>
-          <a href="#" class="cta3"> + </a>
-          <!-- <p>Data exploration, application of statistical methods, reproducible data analysis.</p> -->
+          <h2>Data Science</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
+            architecto placeat beatae tenetur officia quod</p>
         </div>
         <div class="service-item">
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Python Development</h2>
-           <ul>
-            <li>Development of APIs that connects to the backend models</li>
-            <li>Automation of Workflows</li>
-            <li>Web Scraping</li>
-          </ul>
-          <a href="#" class="cta3"> + </a>
-          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p> -->
+          <h2>Business Analysis</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
+            architecto placeat beatae tenetur officia quod</p>
         </div>
         <div class="service-item">
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Artificial Intelligence</h2>
-           <ul>
-            <li>Data-based recommendation Systems</li>
-            <li>Real-time prediction</li>
-            <li>Production of Learning models</li>
-            <li>Natural Language Processing Systems</li>
-            <li>Conversational A.I</li>
-          </ul>
-          <a href="#" class="cta3"> + </a>
-          <!-- <p>Data-based recommendations and real-time prediction, Production of models capable of understanding and processing human languages, Conversational A.I </p> -->
+          <h2>Machine Learning</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
+            architecto placeat beatae tenetur officia quod</p>
         </div>
       </div>
     </div>
@@ -121,7 +53,6 @@
 
   <!-- Projects Section -->
   <section id="projects">
-    <!-- <div id="particles-js"></div> -->
     <div class="projects container">
       <div class="projects-header">
         <h1 class="section-title">Recent <span>Projects</span></h1>
@@ -129,12 +60,11 @@
       <div class="all-projects">
         <div class="project-item">
           <div class="project-info">
-            <h1>Spatial Data Science Project</h1>
-            <h2>Trip Modelling for NYC Taxis</h2>
+            <h1>Project 1</h1>
+            <h2>Coding is Love</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
               rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
               harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-              <a href="#" class="cta2">Read More ...</a>
           </div>
           <div class="project-img">
             <img src="./img/img-1.png" alt="img">
@@ -142,12 +72,11 @@
         </div>
         <div class="project-item">
           <div class="project-info">
-            <h1>NLP Project</h1>
-            <h2>Natural Language Processing App</h2>
+            <h1>Project 2</h1>
+            <h2>Coding is Love</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
               rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
               harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-              <a href="#" class="cta2">Read More ...</a>
           </div>
           <div class="project-img">
             <img src="./img/img-1.png" alt="img">
@@ -155,12 +84,11 @@
         </div>
         <div class="project-item">
           <div class="project-info">
-            <h1>Cluster & Hotspot Analysis</h1>
-            <h2>Analysis of 100,000 data points</h2>
+            <h1>Project 3</h1>
+            <h2>Coding is Love</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
               rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
               harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-              <a href="#" class="cta2">Read More ...</a>
           </div>
           <div class="project-img">
             <img src="./img/img-1.png" alt="img">
@@ -168,12 +96,11 @@
         </div>
         <div class="project-item">
           <div class="project-info">
-            <h1>Graph Neural Network</h1>
-            <h2>Deep Learning for Mobility Solutions</h2>
+            <h1>Project 4</h1>
+            <h2>Coding is Love</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
               rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
               harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-              <a href="#" class="cta2">Read More ...</a>
           </div>
           <div class="project-img">
             <img src="./img/img-1.png" alt="img">
@@ -181,12 +108,11 @@
         </div>
         <div class="project-item">
           <div class="project-info">
-            <h1>Data Coordination of 15 African Cities </h1>
-            <h2>A Technical and Human-focused project</h2>
+            <h1>Project 5</h1>
+            <h2>Coding is Love</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
               rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
               harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-              <a href="#" class="cta2">Read More ...</a>
           </div>
           <div class="project-img">
             <img src="./img/img-1.png" alt="img">
@@ -207,7 +133,6 @@
       </div>
       <div class="col-right">
         <h1 class="section-title">About <span>me</span></h1>
-        <br>
         <h2>Data Scientist</h2>
         <p>Paul has over 4 years of rich experience in Data Science, & Geospatial Analytics.<br><br>
           
@@ -228,7 +153,6 @@
     <div class="contact container">
       <div>
         <h1 class="section-title">Contact <span>info</span></h1>
-        <br><br>
       </div>
       <div class="contact-items">
         <div class="contact-item">
@@ -261,21 +185,20 @@
 
   <!-- Footer -->
   <section id="footer">
-    <!-- <div id="particles-js"></div> -->
     <div class="footer container">
       <div class="brand">
         <h1><span>P</span>aul <span>D</span>ada</h1>
       </div>
-      <h2>Data | Mobility | Artificial Intelligence</h2>
+      <h2>Breathing Life into Data </h2>
       <div class="social-icon">
         <div class="social-item">
-          <a href="https://github.com/Geo-Paull" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/github.png" /></a>
+          <a href="https://github.com/Geo-Paull"><img src="https://img.icons8.com/bubbles/100/000000/github.png" /></a>
         </div>
         <div class="social-item">
-          <a href="https://www.linkedin.com/in/pauldada/"target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" /></a>
+          <a href="https://www.linkedin.com/in/pauldada/"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" /></a>
         </div>
         <div class="social-item">
-          <a href="https://cutt.ly/chat-paul" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/whatsapp.png" /></a>
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/whatsapp.png" /></a>
         </div>
       </div>
       <p>Copyright © 2020 Paul DADA. All rights reserved</p>
